@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="EMA Fresh Fruits — Premium Berries, Product of Mexico. We grow, select and deliver the highest quality berries to the world.">
+  <title>EMA Fresh Fruits | Premium Berries • Product of Mexico</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════════════════════════
+     TOP BAR
+════════════════════════════════════════════════════════════════ -->
+<div class="topbar">
+  <a href="mailto:administration@emafreshfruits.com.mx">
+    <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+    administration@emafreshfruits.com.mx
+  </a>
+  <div class="topbar-socials">
+    <a href="#" class="topbar-social" aria-label="Facebook">
+      <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+    </a>
+    <a href="https://instagram.com/emafreshfruits" class="topbar-social" aria-label="Instagram">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+    </a>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════════
+     NAVIGATION
+════════════════════════════════════════════════════════════════ -->
+<nav class="navbar" id="navbar">
+  <a href="#inicio" class="navbar-logo">
+    <img src="../assets/EMA LOGO - BERRIES SIN FONDO.png" alt="EMA Fresh Fruits">
+  </a>
+
+  <ul class="navbar-links" id="navLinks">
+    <li><a href="#inicio" class="active" data-i18n="nav-home">Home</a></li>
+    <li><a href="#about" data-i18n="nav-about">About EMA</a></li>
+    <li><a href="#berries" data-i18n="nav-products">Products</a></li>
+    <li><a href="#quality" data-i18n="nav-quality">Quality &amp; Export</a></li>
+    <li><a href="#sustainability" data-i18n="nav-sustain">Sustainability</a></li>
+    <li><a href="#contact" data-i18n="nav-contact">Contact</a></li>
+    <li class="mobile-lang-item">
+      <button class="lang-option mobile-lang-opt" data-lang="en">English</button>
+      <button class="lang-option mobile-lang-opt" data-lang="es">Español</button>
+    </li>
+  </ul>
+
+  <div class="navbar-right">
+    <!-- Language switcher -->
+    <div class="lang-switcher" id="langSwitcher">
+      <button class="lang-btn" id="langBtn">EN ▾</button>
+      <div class="lang-dropdown" id="langDropdown">
+        <button class="lang-option" data-lang="en">English</button>
+        <button class="lang-option" data-lang="es">Español</button>
+      </div>
+    </div>
+    <a href="#contact" class="btn-nav" data-i18n="nav-cta">Get in Touch →</a>
+  </div>
+
+  <button class="navbar-burger" id="burger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ══════════════════════════════════════════════════════════════
+     HERO
+════════════════════════════════════════════════════════════════ -->
+<section class="hero" id="inicio">
+
+  <img class="hero-berry-photo" src="../final-assets/IMG_8637.png" alt="Premium Berries EMA Fresh Fruits">
+
+  <!-- LEFT: text on white -->
+  <div class="hero-left">
+
+    <h1 class="hero-headline" data-i18n-html="hero-headline">
+      PREMIUM BERRIES.<br>
+      PRODUCT OF MEXICO<span class="red">.</span>
+    </h1>
+
+    <p class="hero-desc" data-i18n="hero-desc">
+      At EMA Fresh Fruits, we grow, select and deliver the highest quality berries from Mexico to the world.
+    </p>
+
+    <div class="hero-btns">
+      <a href="#berries" class="btn btn-green" data-i18n="hero-btn-berries">Our Berries →</a>
+      <a href="#contact" class="btn btn-outline" data-i18n="hero-btn-contact">Get in Touch →</a>
+    </div>
+
+    <!-- Certifications -->
+    <div class="cert-strip">
+      <div class="cert-badge">
+        <img src="../final-assets/IMG_0691.png" alt="GlobalGAP" class="cert-logo-img">
+        <span style="color:#007B3E">GlobalG.A.P.</span>
+      </div>
+      <div class="cert-badge">
+        <svg viewBox="0 0 28 28" fill="none">
+          <rect x="4" y="4" width="20" height="20" rx="4" fill="#0070C0" opacity=".1"/>
+          <path d="M8 14l4 4 8-8" stroke="#0070C0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span style="color:#0070C0">SMETA</span>
+      </div>
+      <div class="cert-badge">
+        <img src="../final-assets/IMG_1893.jpeg" alt="PrimusGFS" class="cert-logo-img">
+        <span style="color:#566">PrimusGFS</span>
+      </div>
+      <div class="cert-badge">
+        <img src="../final-assets/IMG_6250.png" alt="USDA" class="cert-logo-img">
+        <span style="color:#072657">USDA</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- RIGHT: Berry scene -->
+  <div class="hero-right">
+
+    <!-- hidden legacy SVG (kept for gradient defs referenced nowhere now) -->
+    <svg style="display:none" viewBox="0 0 700 600" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <radialGradient id="sceneBg" cx="50%" cy="50%" r="70%">
+          <stop offset="0%" stop-color="#0D1A2E"/>
+          <stop offset="100%" stop-color="#03060F"/>
+        </radialGradient>
+        <radialGradient id="blueG" cx="30%" cy="25%" r="70%">
+          <stop offset="0%" stop-color="#4A7FE0"/>
+          <stop offset="60%" stop-color="#1A3A8A"/>
+          <stop offset="100%" stop-color="#080E30"/>
+        </radialGradient>
+        <radialGradient id="blackG" cx="30%" cy="25%" r="70%">
+          <stop offset="0%" stop-color="#6B3BA0"/>
+          <stop offset="60%" stop-color="#2A1040"/>
+          <stop offset="100%" stop-color="#0A040F"/>
+        </radialGradient>
+        <radialGradient id="raspG" cx="30%" cy="25%" r="70%">
+          <stop offset="0%" stop-color="#E85090"/>
+          <stop offset="60%" stop-color="#8A1040"/>
+          <stop offset="100%" stop-color="#300010"/>
+        </radialGradient>
+        <radialGradient id="hlG" cx="30%" cy="25%" r="50%">
+          <stop offset="0%" stop-color="white" stop-opacity="0.25"/>
+          <stop offset="100%" stop-color="white" stop-opacity="0"/>
+        </radialGradient>
+        <linearGradient id="leafG" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#4CAF50"/>
+          <stop offset="100%" stop-color="#1B5E20"/>
+        </linearGradient>
+        <linearGradient id="fadeLeft" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0%" stop-color="#fff" stop-opacity="1"/>
+          <stop offset="25%" stop-color="#fff" stop-opacity="0"/>
+        </linearGradient>
+      </defs>
+
+      <rect width="700" height="600" fill="url(#sceneBg)"/>
+      <ellipse cx="350" cy="300" rx="300" ry="250" fill="#0A2010" opacity=".4"/>
+
+      <!-- Blueberries -->
+      <circle cx="200" cy="180" r="68" fill="url(#blueG)"/><circle cx="200" cy="180" r="68" fill="url(#hlG)"/>
+      <ellipse cx="200" cy="148" rx="20" ry="10" fill="#0A0E30" opacity=".7"/>
+      <ellipse cx="175" cy="155" rx="18" ry="28" fill="white" opacity=".08" transform="rotate(-25 175 155)"/>
+      <circle cx="120" cy="260" r="54" fill="url(#blueG)"/><circle cx="120" cy="260" r="54" fill="url(#hlG)"/>
+      <ellipse cx="120" cy="234" rx="16" ry="8" fill="#0A0E30" opacity=".65"/>
+      <circle cx="280" cy="120" r="44" fill="url(#blueG)"/><circle cx="280" cy="120" r="44" fill="url(#hlG)"/>
+      <ellipse cx="280" cy="98" rx="13" ry="6.5" fill="#0A0E30" opacity=".65"/>
+      <circle cx="30" cy="150" r="48" fill="url(#blueG)"/><circle cx="30" cy="150" r="48" fill="url(#hlG)"/>
+      <ellipse cx="30" cy="126" rx="14" ry="7" fill="#0A0E30" opacity=".65"/>
+      <circle cx="320" cy="240" r="40" fill="url(#blueG)"/><circle cx="320" cy="240" r="40" fill="url(#hlG)"/>
+      <ellipse cx="320" cy="220" rx="12" ry="6" fill="#0A0E30" opacity=".65"/>
+      <circle cx="60" cy="340" r="34" fill="url(#blueG)"/><circle cx="60" cy="340" r="34" fill="url(#hlG)"/>
+      <ellipse cx="60" cy="322" rx="10" ry="5" fill="#0A0E30" opacity=".65"/>
+      <circle cx="160" cy="400" r="46" fill="url(#blueG)"/><circle cx="160" cy="400" r="46" fill="url(#hlG)"/>
+      <ellipse cx="160" cy="378" rx="14" ry="7" fill="#0A0E30" opacity=".65"/>
+
+      <!-- Blackberries top-right -->
+      <circle cx="480" cy="100" r="22" fill="url(#blackG)"/><circle cx="480" cy="100" r="22" fill="url(#hlG)"/>
+      <circle cx="520" cy="110" r="22" fill="url(#blackG)"/><circle cx="520" cy="110" r="22" fill="url(#hlG)"/>
+      <circle cx="500" cy="70"  r="20" fill="url(#blackG)"/><circle cx="500" cy="70"  r="20" fill="url(#hlG)"/>
+      <circle cx="550" cy="80"  r="18" fill="url(#blackG)"/><circle cx="550" cy="80"  r="18" fill="url(#hlG)"/>
+      <circle cx="540" cy="135" r="20" fill="url(#blackG)"/><circle cx="540" cy="135" r="20" fill="url(#hlG)"/>
+      <circle cx="470" cy="138" r="18" fill="url(#blackG)"/><circle cx="470" cy="138" r="18" fill="url(#hlG)"/>
+      <circle cx="508" cy="145" r="20" fill="url(#blackG)"/><circle cx="508" cy="145" r="20" fill="url(#hlG)"/>
+      <circle cx="580" cy="105" r="16" fill="url(#blackG)"/><circle cx="580" cy="105" r="16" fill="url(#hlG)"/>
+      <circle cx="565" cy="55"  r="16" fill="url(#blackG)"/><circle cx="565" cy="55"  r="16" fill="url(#hlG)"/>
+      <line x1="510" y1="50" x2="505" y2="30" stroke="#2D6E0A" stroke-width="4" stroke-linecap="round"/>
+      <path d="M505 35C495 25 480 28 488 35" stroke="#3D8C12" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      <circle cx="620" cy="240" r="24" fill="url(#blackG)"/><circle cx="620" cy="240" r="24" fill="url(#hlG)"/>
+      <circle cx="660" cy="250" r="22" fill="url(#blackG)"/><circle cx="660" cy="250" r="22" fill="url(#hlG)"/>
+      <circle cx="640" cy="210" r="20" fill="url(#blackG)"/><circle cx="640" cy="210" r="20" fill="url(#hlG)"/>
+      <circle cx="680" cy="220" r="18" fill="url(#blackG)"/><circle cx="680" cy="220" r="18" fill="url(#hlG)"/>
+      <circle cx="670" cy="270" r="20" fill="url(#blackG)"/><circle cx="670" cy="270" r="20" fill="url(#hlG)"/>
+      <circle cx="610" cy="268" r="18" fill="url(#blackG)"/><circle cx="610" cy="268" r="18" fill="url(#hlG)"/>
+      <circle cx="648" cy="278" r="22" fill="url(#blackG)"/><circle cx="648" cy="278" r="22" fill="url(#hlG)"/>
+      <circle cx="694" cy="245" r="14" fill="url(#blackG)"/><circle cx="694" cy="245" r="14" fill="url(#hlG)"/>
+      <line x1="645" y1="190" x2="640" y2="168" stroke="#2D6E0A" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M640 175C630 165 615 168 622 175" stroke="#3D8C12" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+      <!-- Raspberries -->
+      <circle cx="450" cy="320" r="26" fill="url(#raspG)"/><circle cx="450" cy="320" r="26" fill="url(#hlG)"/>
+      <circle cx="494" cy="310" r="24" fill="url(#raspG)"/><circle cx="494" cy="310" r="24" fill="url(#hlG)"/>
+      <circle cx="472" cy="280" r="22" fill="url(#raspG)"/><circle cx="472" cy="280" r="22" fill="url(#hlG)"/>
+      <circle cx="516" cy="285" r="20" fill="url(#raspG)"/><circle cx="516" cy="285" r="20" fill="url(#hlG)"/>
+      <circle cx="422" cy="310" r="22" fill="url(#raspG)"/><circle cx="422" cy="310" r="22" fill="url(#hlG)"/>
+      <circle cx="524" cy="336" r="22" fill="url(#raspG)"/><circle cx="524" cy="336" r="22" fill="url(#hlG)"/>
+      <circle cx="476" cy="350" r="24" fill="url(#raspG)"/><circle cx="476" cy="350" r="24" fill="url(#hlG)"/>
+      <circle cx="444" cy="346" r="20" fill="url(#raspG)"/><circle cx="444" cy="346" r="20" fill="url(#hlG)"/>
+      <circle cx="504" cy="358" r="18" fill="url(#raspG)"/><circle cx="504" cy="358" r="18" fill="url(#hlG)"/>
+      <circle cx="470" cy="372" r="18" fill="url(#raspG)"/><circle cx="470" cy="372" r="18" fill="url(#hlG)"/>
+      <line x1="473" y1="260" x2="470" y2="238" stroke="#2D6E0A" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M470 244C460 234 445 237 452 244" stroke="#3D8C12" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M470 244C480 234 495 237 488 244" stroke="#3D8C12" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <circle cx="600" cy="440" r="28" fill="url(#raspG)"/><circle cx="600" cy="440" r="28" fill="url(#hlG)"/>
+      <circle cx="648" cy="430" r="26" fill="url(#raspG)"/><circle cx="648" cy="430" r="26" fill="url(#hlG)"/>
+      <circle cx="625" cy="398" r="24" fill="url(#raspG)"/><circle cx="625" cy="398" r="24" fill="url(#hlG)"/>
+      <circle cx="668" cy="408" r="22" fill="url(#raspG)"/><circle cx="668" cy="408" r="22" fill="url(#hlG)"/>
+      <circle cx="574" cy="432" r="24" fill="url(#raspG)"/><circle cx="574" cy="432" r="24" fill="url(#hlG)"/>
+      <circle cx="678" cy="456" r="24" fill="url(#raspG)"/><circle cx="678" cy="456" r="24" fill="url(#hlG)"/>
+      <circle cx="628" cy="468" r="26" fill="url(#raspG)"/><circle cx="628" cy="468" r="26" fill="url(#hlG)"/>
+      <circle cx="598" cy="464" r="22" fill="url(#raspG)"/><circle cx="598" cy="464" r="22" fill="url(#hlG)"/>
+      <circle cx="656" cy="476" r="20" fill="url(#raspG)"/><circle cx="656" cy="476" r="20" fill="url(#hlG)"/>
+      <circle cx="624" cy="488" r="18" fill="url(#raspG)"/><circle cx="624" cy="488" r="18" fill="url(#hlG)"/>
+      <line x1="626" y1="378" x2="622" y2="355" stroke="#2D6E0A" stroke-width="3" stroke-linecap="round"/>
+      <path d="M622 362C612 352 597 355 604 362" stroke="#3D8C12" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+
+      <!-- Leaves -->
+      <path d="M380 480 C360 460 340 470 350 490 C360 510 380 500 380 480Z" fill="url(#leafG)" opacity=".7"/>
+      <path d="M100 500 C80 480 60 490 70 510 C80 530 100 520 100 500Z" fill="url(#leafG)" opacity=".5"/>
+      <path d="M700 350 C680 330 660 345 670 365 C680 385 700 375 700 350Z" fill="url(#leafG)" opacity=".55"/>
+
+      <rect width="700" height="600" fill="url(#fadeLeft)"/>
+    </svg>
+
+    <!-- "FROM MEXICO TO THE WORLD" badge -->
+    <img class="mexico-badge" src="../final-assets/badge-from-mexico.png" alt="From Mexico to the World">
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════
+     OUR BERRIES
+════════════════════════════════════════════════════════════════ -->
+<section class="berries-section" id="berries">
+  <div class="berries-section-header">
+    <div class="sec-eyebrow reveal" data-i18n="berries-eyebrow">OUR BERRIES</div>
+    <p class="sec-sub reveal d2" data-i18n="berries-sub">Carefully grown. Naturally delicious.</p>
+  </div>
+
+  <div class="berries-grid">
+
+    <!-- BLACKBERRIES (featured — with badge) -->
+    <div class="bcard reveal d2">
+      <div class="bcard-img">
+        <img class="bcard-photo" src="../final-assets/IMG_6496.png" alt="Blackberries EMA Fresh Fruits">
+        <img class="bcard-badge" src="../final-assets/IMG_0704.png" alt="Zarzamora">
+      </div>
+      <div class="bcard-body">
+        <h3 class="bcard-title" data-i18n="berry2-title">Blackberries</h3>
+        <p class="bcard-desc" data-i18n="berry2-desc">Juicy, firm and full of flavor. Excellence in every bite. Our blackberries are selected at the perfect ripeness for maximum taste.</p>
+        <a href="#contact" class="learn-more" data-i18n="learn-more">Learn More →</a>
+      </div>
+    </div>
+
+    <!-- BLUEBERRIES -->
+    <div class="bcard reveal d1">
+      <div class="bcard-img">
+        <img class="bcard-photo" src="../final-assets/IMG_4428.png" alt="Blueberries EMA Fresh Fruits">
+        <img class="bcard-badge" src="../final-assets/icon-arandano.png" alt="Arándano">
+      </div>
+      <div class="bcard-body">
+        <h3 class="bcard-title" data-i18n="berry1-title">Blueberries</h3>
+        <p class="bcard-desc" data-i18n="berry1-desc">Superior quality, great taste and full of antioxidants. Carefully packed to preserve freshness in every bite.</p>
+        <a href="#contact" class="learn-more" data-i18n="learn-more">Learn More →</a>
+      </div>
+    </div>
+
+    <!-- RASPBERRIES -->
+    <div class="bcard reveal d3">
+      <div class="bcard-img">
+        <img class="bcard-photo" src="../final-assets/IMG_3315.png" alt="Raspberries EMA Fresh Fruits">
+        <img class="bcard-badge" src="../final-assets/IMG_4806.png" alt="Frambuesa">
+      </div>
+      <div class="bcard-body">
+        <h3 class="bcard-title" data-i18n="berry3-title">Raspberries</h3>
+        <p class="bcard-desc" data-i18n="berry3-desc">Delicate, sweet and vibrant. Excellence in every detail. Our raspberries are the preferred choice for premium culinary experiences.</p>
+        <a href="#contact" class="learn-more" data-i18n="learn-more">Learn More →</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════
+     FEATURES STRIP
+════════════════════════════════════════════════════════════════ -->
+<div class="features">
+  <div class="features-grid">
+
+    <div class="feature reveal">
+      <div class="feature-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 15a6 6 0 006-6V3H6v6a6 6 0 006 6zM8 3H4v3l2 6c.7 0 1.4-.1 2-.3V3zm8 0v8.7c.6.2 1.3.3 2 .3l2-6V3h-4zM9 19v-2h6v2h2v2H7v-2h2z" fill="#50990A"/></svg>
+      </div>
+      <div>
+        <div class="feature-title" data-i18n="feat1-title">Premium Quality</div>
+        <div class="feature-desc" data-i18n="feat1-desc">We follow the highest quality standards from the field to your hands. Every berry is carefully inspected.</div>
+      </div>
+    </div>
+
+    <div class="feature reveal d2">
+      <div class="feature-icon">
+        <svg viewBox="0 0 24 24"><path d="M22 11h-4.17l3.24-3.24-1.41-1.42L15 11h-2V9l4.66-4.66-1.42-1.41L13 6.17V2h-2v4.17L7.76 2.93 6.34 4.34 11 9v2H9L4.34 6.34 2.93 7.76 6.17 11H2v2h4.17l-3.24 3.24 1.41 1.42L9 13h2v2l-4.66 4.66 1.42 1.41L11 17.83V22h2v-4.17l3.24 3.24 1.42-1.41L13 15v-2h2l4.66 4.66 1.41-1.42L17.83 13H22v-2z" fill="#50990A"/></svg>
+      </div>
+      <div>
+        <div class="feature-title" data-i18n="feat2-title">Cold Chain Focus</div>
+        <div class="feature-desc" data-i18n="feat2-desc">We protect freshness with a robust cold chain from harvest to destination, monitored 24/7.</div>
+      </div>
+    </div>
+
+    <div class="feature reveal d4">
+      <div class="feature-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z" fill="#50990A"/></svg>
+      </div>
+      <div>
+        <div class="feature-title" data-i18n="feat3-title">Export Mindset</div>
+        <div class="feature-desc" data-i18n="feat3-desc">We are ready to supply the world with consistent quality, all year round. Certified for US &amp; EU markets.</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════════
+     INFO COLUMNS (About / Quality / Sustainability)
+════════════════════════════════════════════════════════════════ -->
+<section class="info-section" id="about">
+  <div class="info-grid">
+
+    <!-- About EMA -->
+    <div class="info-card reveal">
+      <div class="info-img">
+        <img src="../assets/campo.PNG" alt="EMA Fresh Fruits Team">
+      </div>
+      <div class="info-label" data-i18n="info1-label">Who we are</div>
+      <h3 class="info-title" data-i18n="info1-title">About EMA</h3>
+      <p class="info-text" data-i18n="info1-text">We are a Mexican company dedicated to the production and export of premium berries. Our commitment is to offer the world the best of our land: fresh, delicious and responsibly grown fruit.</p>
+      <a href="#contact" class="info-link" data-i18n="info1-link">Learn More →</a>
+    </div>
+
+    <!-- Quality & Export -->
+    <div class="info-card reveal d2" id="quality">
+      <div class="info-img">
+        <img src="../assets/banda.png" alt="EMA Fresh Fruits Packaging" style="object-position:center top">
+      </div>
+      <div class="info-label" data-i18n="info2-label">Certifications</div>
+      <h3 class="info-title" data-i18n="info2-title">Quality &amp; Export</h3>
+      <p class="info-text" data-i18n="info2-text">We have certified processes, traceability in every step and a solid logistics network to meet the highest standards required by the most demanding markets worldwide.</p>
+      <a href="#contact" class="info-link" data-i18n="info2-link">Learn More →</a>
+    </div>
+
+    <!-- Sustainability -->
+    <div class="info-card reveal d4" id="sustainability">
+      <div class="info-img">
+        <img src="../assets/planta.png" alt="EMA Fresh Fruits Team">
+      </div>
+      <div class="info-label" data-i18n="info3-label">Our commitment</div>
+      <h3 class="info-title" data-i18n="info3-title">Sustainability</h3>
+      <p class="info-text" data-i18n="info3-text">We care for our land and the environment. We work every day to build a more sustainable future for generations to come, supporting local farming communities.</p>
+      <a href="#contact" class="info-link" data-i18n="info3-link">Learn More →</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════
+     CTA BAND
+════════════════════════════════════════════════════════════════ -->
+<section class="cta-band">
+  <svg class="cta-band-bg" viewBox="0 0 1400 400" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <radialGradient id="ctaBlue" cx="30%" cy="25%" r="70%">
+        <stop offset="0%" stop-color="#4878D8"/><stop offset="100%" stop-color="#0A1A50"/>
+      </radialGradient>
+      <radialGradient id="ctaBlack" cx="30%" cy="25%" r="70%">
+        <stop offset="0%" stop-color="#7840B0"/><stop offset="100%" stop-color="#1A0530"/>
+      </radialGradient>
+      <radialGradient id="ctaRasp" cx="30%" cy="25%" r="70%">
+        <stop offset="0%" stop-color="#E85090"/><stop offset="100%" stop-color="#700830"/>
+      </radialGradient>
+      <radialGradient id="ctaHl" cx="30%" cy="25%" r="50%">
+        <stop offset="0%" stop-color="white" stop-opacity=".15"/><stop offset="100%" stop-color="white" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <circle cx="60"   cy="200" r="55" fill="url(#ctaBlue)"/><circle cx="60"   cy="200" r="55" fill="url(#ctaHl)"/>
+    <circle cx="150"  cy="280" r="48" fill="url(#ctaBlack)"/><circle cx="150"  cy="280" r="48" fill="url(#ctaHl)"/>
+    <circle cx="220"  cy="150" r="44" fill="url(#ctaRasp)"/><circle cx="220"  cy="150" r="44" fill="url(#ctaHl)"/>
+    <circle cx="1200" cy="180" r="52" fill="url(#ctaBlue)"/><circle cx="1200" cy="180" r="52" fill="url(#ctaHl)"/>
+    <circle cx="1310" cy="260" r="46" fill="url(#ctaBlack)"/><circle cx="1310" cy="260" r="46" fill="url(#ctaHl)"/>
+    <circle cx="1360" cy="130" r="40" fill="url(#ctaRasp)"/><circle cx="1360" cy="130" r="40" fill="url(#ctaHl)"/>
+    <circle cx="330"  cy="320" r="40" fill="url(#ctaBlue)"/><circle cx="330"  cy="320" r="40" fill="url(#ctaHl)"/>
+    <circle cx="1080" cy="320" r="44" fill="url(#ctaRasp)"/><circle cx="1080" cy="320" r="44" fill="url(#ctaHl)"/>
+  </svg>
+
+  <div class="cta-band-content">
+    <h2 class="cta-band-title reveal" data-i18n="cta-title">Let's Grow Together</h2>
+    <p class="cta-band-sub reveal d2" data-i18n="cta-sub">We are ready to supply your business with the best berries from Mexico.</p>
+    <a href="#contact" class="btn btn-green-sm reveal d3" data-i18n="cta-btn">Contact Our Team →</a>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════
+     CONTACT SECTION
+════════════════════════════════════════════════════════════════ -->
+<section style="background:#f5f7f5;padding:5rem 5vw" id="contact">
+  <div class="contact-grid" style="max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr 1.3fr;gap:5vw;align-items:start">
+
+    <div>
+      <div class="sec-eyebrow reveal" data-i18n="contact-eyebrow">Get in Touch</div>
+      <h2 class="sec-title reveal d1" style="margin-bottom:1rem" data-i18n="contact-title">Ready to start a partnership?</h2>
+      <p class="sec-sub reveal d2" style="margin-bottom:2rem" data-i18n="contact-sub">
+        Contact us for quotations, availability info or to schedule a visit to our facilities.
+      </p>
+      <div style="display:flex;flex-direction:column;gap:1rem" class="reveal d3">
+        <div style="display:flex;gap:.8rem;align-items:flex-start;font-size:.85rem;color:#555">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="#50990A" style="margin-top:2px;flex-shrink:0"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          <span>administration@emafreshfruits.com.mx</span>
+        </div>
+        <div style="display:flex;gap:.8rem;align-items:flex-start;font-size:.85rem;color:#555">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="#50990A" style="margin-top:2px;flex-shrink:0"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          <span>+52 (354) 109-6043</span>
+        </div>
+        <div style="display:flex;gap:.8rem;align-items:flex-start;font-size:.85rem;color:#555">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="#50990A" style="margin-top:2px;flex-shrink:0"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+          <div>
+            <div>Los Reyes, Michoacán, México</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="background:white;border-radius:12px;padding:2rem;box-shadow:0 4px 24px rgba(7,38,87,.09)" class="reveal-right">
+      <form id="contactForm">
+        <div class="form-fields">
+          <h3 style="font-family:'Montserrat',sans-serif;font-size:1.1rem;font-weight:800;color:var(--navy);margin-bottom:1.5rem" data-i18n="form-title">Send us a Message</h3>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:.8rem;margin-bottom:.8rem">
+            <div>
+              <label style="display:block;font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#888;margin-bottom:.4rem" data-i18n="form-name-label">Name *</label>
+              <input style="width:100%;padding:.65rem .9rem;border:1.5px solid #e0e0e0;border-radius:6px;font-family:'Poppins',sans-serif;font-size:.85rem;outline:none;transition:border-color .2s"
+                     placeholder="Your name" data-i18n-placeholder="form-name-ph" required>
+            </div>
+            <div>
+              <label style="display:block;font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#888;margin-bottom:.4rem" data-i18n="form-company-label">Company</label>
+              <input style="width:100%;padding:.65rem .9rem;border:1.5px solid #e0e0e0;border-radius:6px;font-family:'Poppins',sans-serif;font-size:.85rem;outline:none;transition:border-color .2s"
+                     placeholder="Company name" data-i18n-placeholder="form-company-ph">
+            </div>
+          </div>
+          <div style="margin-bottom:.8rem">
+            <label style="display:block;font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#888;margin-bottom:.4rem" data-i18n="form-email-label">Email *</label>
+            <input type="email" style="width:100%;padding:.65rem .9rem;border:1.5px solid #e0e0e0;border-radius:6px;font-family:'Poppins',sans-serif;font-size:.85rem;outline:none;transition:border-color .2s"
+                   placeholder="email@company.com" required>
+          </div>
+          <div style="margin-bottom:.8rem">
+            <label style="display:block;font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#888;margin-bottom:.4rem" data-i18n="form-product-label">Product of Interest</label>
+            <select style="width:100%;padding:.65rem .9rem;border:1.5px solid #e0e0e0;border-radius:6px;font-family:'Poppins',sans-serif;font-size:.85rem;outline:none;appearance:none;background:#fff url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22><path d=%22M7 10l5 5 5-5z%22 fill=%22%23888%22/></svg>') no-repeat right .8rem center/16px">
+              <option data-i18n="form-product-default">Select a product</option>
+              <option data-i18n="form-product-1">Blueberries</option>
+              <option data-i18n="form-product-2">Blackberries</option>
+              <option data-i18n="form-product-3">Raspberries</option>
+              <option data-i18n="form-product-4">All products</option>
+            </select>
+          </div>
+          <div style="margin-bottom:1.2rem">
+            <label style="display:block;font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#888;margin-bottom:.4rem" data-i18n="form-msg-label">Message *</label>
+            <textarea style="width:100%;padding:.65rem .9rem;border:1.5px solid #e0e0e0;border-radius:6px;font-family:'Poppins',sans-serif;font-size:.85rem;outline:none;resize:vertical;min-height:100px"
+                      placeholder="Tell us about your needs, volumes, delivery frequency…"
+                      data-i18n-placeholder="form-msg-ph" required></textarea>
+          </div>
+          <button type="submit"
+                  style="width:100%;background:#50990A;color:white;border:none;border-radius:6px;padding:.8rem;font-family:'Poppins',sans-serif;font-size:.82rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;transition:background .2s"
+                  onmouseover="this.style.background='#3E7A08'" onmouseout="this.style.background='#50990A'"
+                  data-i18n="form-btn">Send Message →</button>
+        </div>
+        <div class="form-success" style="display:none;text-align:center;padding:2rem 1rem">
+          <div style="font-size:3rem;margin-bottom:1rem">✅</div>
+          <h3 style="font-family:'Montserrat',sans-serif;font-size:1.2rem;font-weight:800;color:var(--navy);margin-bottom:.8rem" data-i18n="form-success-title">Message Sent!</h3>
+          <p style="font-size:.85rem;color:#666" data-i18n="form-success-msg">Thank you for contacting EMA Fresh Fruits. Our team will get back to you within 24 hours.</p>
+        </div>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════════════════════════════ -->
+<footer class="footer">
+  <div class="footer-grid">
+
+    <!-- Brand column -->
+    <div class="footer-logo-col">
+      <div class="footer-logo">
+        <img src="../assets/EMA LOGO - BERRIES SIN FONDO.png" alt="EMA Fresh Fruits"
+             style="filter:brightness(0) invert(1);height:42px;margin-bottom:1rem">
+      </div>
+      <p class="footer-tagline" data-i18n="footer-tagline">Premium Berries, Product of Mexico. Freshness, quality and sustainability in every package.</p>
+      <div class="footer-contact-item">
+        <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        administration@emafreshfruits.com.mx
+      </div>
+      <div class="footer-contact-item">
+        <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+        +52 (354) 109-6043
+      </div>
+      <div class="footer-contact-item">
+        <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+        Los Reyes, Michoacán, México
+      </div>
+      <div class="footer-socials">
+        <a href="#" class="footer-social" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+        <a href="https://instagram.com/emafreshfruits" class="footer-social" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+      </div>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-col">
+      <div class="footer-col-title" data-i18n="footer-links-title">Quick Links</div>
+      <ul>
+        <li><a href="#inicio" data-i18n="footer-link-home">Home</a></li>
+        <li><a href="#about" data-i18n="footer-link-about">About EMA</a></li>
+        <li><a href="#berries" data-i18n="footer-link-products">Products</a></li>
+        <li><a href="#quality" data-i18n="footer-link-quality">Quality &amp; Export</a></li>
+        <li><a href="#sustainability" data-i18n="footer-link-sustain">Sustainability</a></li>
+        <li><a href="#contact" data-i18n="footer-link-contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Certifications -->
+    <div class="footer-col">
+      <div class="footer-col-title" data-i18n="footer-certs-title">Certifications</div>
+      <div class="footer-certs">
+        <div class="footer-cert">
+          <img src="../final-assets/IMG_0691.png" alt="GlobalGAP" class="cert-logo-img">
+          <span>GlobalG.A.P.</span>
+        </div>
+        <div class="footer-cert">
+          <svg viewBox="0 0 28 28" fill="none">
+            <rect x="3" y="3" width="22" height="22" rx="4" stroke="#0070C0" stroke-width="1.5"/>
+            <path d="M8 14l4 4 8-8" stroke="#0070C0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span>SMETA</span>
+        </div>
+        <div class="footer-cert">
+          <img src="../final-assets/IMG_1893.jpeg" alt="PrimusGFS" class="cert-logo-img">
+          <span>PrimusGFS</span>
+        </div>
+        <div class="footer-cert">
+          <img src="../final-assets/IMG_6250.png" alt="USDA" class="cert-logo-img">
+          <span>USDA Certified</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Newsletter -->
+    <div class="footer-col">
+      <div class="footer-col-title" data-i18n="footer-newsletter-title">Newsletter</div>
+      <p style="font-size:.78rem;color:rgba(255,255,255,.45);margin-bottom:1rem;line-height:1.6" data-i18n="footer-newsletter-sub">
+        Stay up to date with EMA. Get seasonal availability and industry news.
+      </p>
+      <form id="newsletterForm" class="newsletter-form">
+        <input class="newsletter-input" type="email"
+               placeholder="your@email.com" data-i18n-placeholder="newsletter-input-ph" required>
+        <button class="newsletter-btn" type="submit">→</button>
+      </form>
+      <p class="newsletter-note" id="newsletterNote" data-i18n="footer-newsletter-note">We respect your privacy. Unsubscribe anytime.</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p class="footer-copy" data-i18n="footer-copy">© 2026 EMA Fresh Fruits. All rights reserved.</p>
+    <div class="footer-legal">
+      <a href="#" data-i18n="footer-privacy">Privacy Policy</a>
+      <a href="#" data-i18n="footer-terms">Terms &amp; Conditions</a>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
